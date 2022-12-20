@@ -1,0 +1,39 @@
+ruby-bindex (0.8.1+ds-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:04:16 +0800
+
+ruby-bindex (0.8.1+ds-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update watch file format version to 4.
+  * Bump debhelper from old 12 to 13.
+
+  [ Cédric Boutillier ]
+  * New upstream version 0.8.1
+    + tests are passing with ruby3.0 (Closes: #996136)
+  * debian/gemspec points to bindex (Upstream gem has been renamed skiptrace)
+  * Add patch: Do not use git in gemspec
+  * Repack to avoid precompiled jar in source
+  * New upstream version 0.8.1+ds
+  * Refresh packaging:
+    - gem install layout
+    - description more conform to guidelines
+
+ -- Cédric Boutillier <boutil@debian.org>  Thu, 28 Oct 2021 00:03:07 +0200
+
+ruby-bindex (0.5.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #897992)
+
+ -- Sruthi Chandran <srud@disroot.org>  Sat, 05 May 2018 19:46:00 +0530
